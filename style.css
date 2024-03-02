@@ -38,7 +38,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0 2rem;
 }
 
 .customer-support {
@@ -153,13 +153,14 @@
 /*---------------NAVBAR-------------------*/
 .container-navbar {
   background-color: var(--primary-color);
+  /* padding: 0 2rem; */
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
 }
 
 .navbar .fa-bars {
@@ -250,6 +251,7 @@
   height: 60rem;
   background-size: cover;
   background-position: center;
+  padding: 0 3rem;
 }
 
 .content-banner {
@@ -1074,7 +1076,7 @@
 
   .container-blogs {
     grid-template-columns: 1fr;
-    height: 75rem;
+    height: 200rem;
   }
 
   .content-blog h3 {
